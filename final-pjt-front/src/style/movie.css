@@ -1,0 +1,167 @@
+#card {
+  margin: 5px;
+  border: 0;
+  position: relative;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+
+#card:hover {
+  box-shadow: 0px 0px 30px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.3);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.3);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.3);
+  transition: all 200ms ease-in;
+  transform: scale(1.3);
+}
+
+/*********************** Movie Detail ***********************/
+
+#infoContainer {
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* 왼쪽 */
+
+#leftcards {
+  width: 45%;
+  margin-right: 2%;
+}
+
+.movieImage {
+  width: 100%;
+  margin-bottom: 4%;
+}
+
+#movieGenres {
+  width: 100%;
+  border-radius: 0px;
+}
+
+/* 오른쪽 */
+
+#rightcards {
+  width: 55%;
+}
+
+.movieVideo {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 3%;
+}
+
+#detailInfo {
+  border-radius: 0px;
+}
+
+/* 아래쪽 */
+
+#bottomcards {
+  margin-bottom: 5%;
+}
+
+.detailReview {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#reviewCard {
+  width: 100%;
+  border-radius: 0px;
+}
+
+#reviewContent {
+  width: 100%;
+  height: 120px;
+}
+
+.reviewCreateBtn {
+  margin-top: -4px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 35px;
+  background-color: #f286af;
+  border: #f286af;
+  color: white;
+  border-radius: 8px;
+}
+
+.reviewCreateBtn:hover {
+  background-color: #ff2b63;
+}
+
+#reviewListItem {
+  background-color: #e8e8e8;
+  position: relative;
+  /* display: inline-block; */
+  /* max-width: calc(100% - 70px); */
+  padding: 10px;
+  margin-top: 7px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  border-radius: 10px;
+}
+
+#reviewListItem::before {
+  position: absolute;
+  display: block;
+  top: 3px;
+  font-size: 1.5rem;
+  left: -15px;
+  content: "◀";
+  color: #e8e8e8;
+}
+
+#reviewHead {
+  border-bottom: 1px solid #6c757d;
+  padding-bottom: 7px;
+  padding-left: 7px;
+}
+
+#reviewHead p {
+  margin-bottom: 0px;
+}
+
+#reviewHead a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-size: medium;
+  font-weight: bold;
+}
+
+#reviewContent {
+  text-align: left;
+  padding-top: 8px;
+  padding-left: 8px;
+  margin-bottom: 12px;
+  height: auto;
+}
+
+.reviewBtn {
+  margin-top: -3px;
+  margin-left: 3px;
+  width: 40px;
+  height: 30px;
+  background-color: #505050;
+  border: #505050;
+  color: white;
+  border-radius: 8px;
+}
+
+.reviewBtn:hover {
+  background-color: #ff2b63;
+}

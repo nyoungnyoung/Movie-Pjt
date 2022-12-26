@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "NanumSquareNeo-Variable";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ycomputer-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/Ycomputer-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MonoplexKR-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-kr@1.0/MonoplexKR-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MICEGothic Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEGothic Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HallymGothic-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymGothic-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+#app {
+  font-family: Ycomputer-Regular, Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+nav {
+  padding: 30px;
+}
+
+nav a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+nav a.router-link-exact-active {
+  color: #ff2b63;
+}
+
+.menuBar:hover {
+  color: #ffca01;
+}
+
+.navbar {
+  background-color: rgb(255, 186, 186);
+  font-size: larger;
+}
+
+.logo {
+  margin-left: 20px;
+  margin-bottom: 1px;
+  margin-right: 5px;
+  width: 200px;
+}
+
+#searchForm {
+  margin-bottom: 3px;
+}
+
+.searchInput {
+  height: 30px;
+  width: 190px;
+  border: #2c3e50;
+  border-radius: 5px;
+  font-size: medium;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+.searchIcon {
+  color: white;
+  margin-left: 1px;
+  margin-right: -9px;
+}
+
+.movieCupicon {
+  width: 50px;
+  margin-left: -5px;
+  margin-right: 8px;
+}
